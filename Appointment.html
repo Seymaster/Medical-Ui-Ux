@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Abiodun Medicals Book appointment</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script src="jquery.js" type="text/javascript"></script>
+	<script src="bootstrap.js" type="text/javascript"></script>
+	<script scr="bootstrap1.js" type="text/javascript"></script>
+
+</head>
+<body style="background-color: rgb(201, 226, 181)">
+	<header style="padding-top: 20px;">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header"><a class="navbar-brand" href="index.html">Abiodun Medicals</a></div>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				<div class="collapse navbar-collapse" id="mynavbar">
+					<ul class="nav navbar-nav">
+						<li><a href="Appointment.html">Book an Appointment</a></li>
+						<li><a href="accepts.html">Accept Booking</a></li>
+						<li><a href="Contact.html">Contact</a></li>
+						<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Review
+					<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li>For Doctors</li>
+						<li>For Patients</li>
+					</ul>
+						</li>
+							<form style="padding-left: 100px;" class="navbar-form navbar-left" action="page.php">
+								<div class="form-group">
+								<input type="text" class="form-control" placeholder="Search">
+							</div>
+							<button type="submit" class="btn go-default">Go</button>
+							</form>
+					</ul>   
+				</div>
+			</div>
+		</nav>
+	</header>
+	<h3 style="text-align: center; padding-top: 30px">MAKE AN APPOINTMENT</h3>
+		<div class="container">
+			<div class="form-group">
+				<label for="user">Patient Name:</label>
+				<input type="text" class="form-control" id="user">
+			</div>
+			<div class="form-group">
+				<label for="user">Phone Number:</label>
+				<input type="text" class="form-control" id="user">
+			</div>
+			<div class="form-group">
+				<label for="user">Email:</label> 	
+				<input type="text" class="form-control" id="user">
+			</div>
+			<div class="form-group">
+				<label for="pwd">Symptoms:</label>
+				<input type="password" class="form-control" id="pwd">
+			</div>
+			<div class="form-group">
+				<label for="selt" placeholder="Avaialble Doctors"> Available Doctors</label>
+				<select class="form-control" id="selt">
+					<option> <p></p></option>
+					<option>Doctor Emeka  (location:las Vegas)</option>
+					<option>Doctor Abey  (Location:Los Angeles)</option>
+					<option>Doctor Emma  (Location:Dubia)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="pwd">Select Date:</label>
+				<input type="password" class="form-control" id="pwd">
+			</div>
+			<div class="form-group">
+				<label for="pwd">Department:</label>
+				<input type="password" class="form-control" id="pwd">
+			</div>
+			<div class="form-group">
+				<label for="pwd">Gender:</label>
+				<input type="password" class="form-control" id="pwd">
+			</div>
+			<div class="form-group">
+				<label for="pwd">Time:</label>
+				<input type="password" class="form-control" id="pwd">
+			</div>
+			<center> <button type="button" class="btn btn-default"><a href="jet.html">SUBMIT</a></button></center>
+		</div>
+	</body>
+	<footer class="footer container-fluid padding-buttom">
+	&copy; Abiodun 2019
+	</footer>
+</html>
